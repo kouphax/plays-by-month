@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Boardgame Plays HeatMap for kouphax</title>
+    <style>
+        :root {
+            --r: 0;
+            --g: 0;
+            --b: 0;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 800px;
+            margin: 0 auto;
+            margin-top: 2rem;
+            border-collapse: collapse;
+        }
+
+        table > * {
+            text-align: center;
+            padding: 0;
+        }
+
+        tr {
+            height: 56px;
+            font-size: 80%;
+        }
+
+        th {
+            font-weight: normal;
+        }
+
+        #scale {
+            height: 300px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        #scale-container {
+            padding-left: 2em;
+            width: 10px;
+            font-size: 80%;
+        }
+
+        .y-legend {
+            transform: rotate(-90deg);
+            width: 10px;
+            font-weight: bold;
+        }
+
+        .x-legend {
+            font-weight: bold;
+        }
+
+        h1 {
+            margin: 2em;
+            font-weight: normal;
+        }
+
+        .year {
+            width: 80px;
+        }
+
+    </style>
+</head>
+<body>
+<table>
+    <tbody id="app"></tbody>
+</table>
+<script type="module" src="index.js"></script>
+</body>
+</html>

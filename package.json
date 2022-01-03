@@ -1,0 +1,25 @@
+{
+  "name": "xhrtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "fast-xml-parser": "^4.0.0-beta.8",
+    "pithy": "^0.0.4",
+    "ramda": "^0.27.1",
+    "scale-color-perceptual": "^1.1.2"
+  }
+}
