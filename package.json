@@ -13,13 +13,21 @@
     "eslint": "^8.6.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0",
     "parcel": "^2.0.1"
   },
   "dependencies": {
+    "@xstate/react": "^1.6.3",
     "eslint-config-airbnb": "^19.0.4",
     "fast-xml-parser": "^4.0.0-beta.8",
+    "install": "^0.13.0",
     "pithy": "^0.0.4",
+    "prop-types": "^15.8.1",
     "ramda": "^0.27.1",
-    "scale-color-perceptual": "^1.1.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "recoil": "^0.5.2",
+    "scale-color-perceptual": "^1.1.2",
+    "xstate": "^4.27.0"
   }
 }

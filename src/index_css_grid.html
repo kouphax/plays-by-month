@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Boardgame Plays HeatMap for kouphax</title>
+    <style>
+        .row {
+            display: flex;
+
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+
+        .row__cell {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        /* Cell with given width. Replace 25% with whatever you want */
+        .row__cell--25pct {
+            flex: 0 0 25%;
+        }
+
+        .row__cell--50pct {
+            flex: 0 0 50%;
+        }
+
+        .row__cell--fill {
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+</div>
+
+<div class="row">
+    <div class="row__cell row__cell--25pct">
+
+    </div>
+    <div class="row__cell row__cell--fill">
+        <div class="row">
+            <div class="row__cell row__cell--25pct">
+                <div class="content">25%</div>
+            </div>
+            <div class="row__cell row__cell--50pct">
+                <div class="content">50%</div>
+            </div>
+            <div class="row__cell row__cell--fill">
+                <div class="content">...</div>
+            </div>
+        </div>
+    </div>
+    <div class="row__cell row__cell--25pct">
+
+    </div>
+</div>
+
+
+<script type="module" src="index_css_grid.js"></script>
+</body>
+</html>
